@@ -1,4 +1,4 @@
-__author__ = 'P Rayudu Pasumathi'
+__author__ = 'P Rayudu Pasumarthi'
 
 from selenium import webdriver
 from selenium.webdriver.support.select import Select
@@ -67,7 +67,7 @@ if __name__ == '__main__':
         SD.test_sort()
         time.sleep(2)
         SD.test_add2cart()
-        time.sleep(10)
+        time.sleep(5)
         SD.test_teardown()
     except Exception as Error:
         print("Exception Occurred while testing the SauceDemo. Error is: {}".format(Error))
